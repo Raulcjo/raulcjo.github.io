@@ -19,17 +19,6 @@ body{
     width: 100%;
     height: 170vh;
     background: linear-gradient(54deg, #cccac6, #d9e0e7, #c5d3da, #cacbcf);
-    animation: gradiente-animado 15s ease infinite alternate ;
-}
-
-@keyframes gradiente-animado {
-    0%{
-        background-position: 0%;
-    }
-
-    100%{
-        background-position: 100%;
-    }
 }
 
 header{
