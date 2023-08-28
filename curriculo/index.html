@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="r-icon.png" type="image/x-icon">
+    <script src="js/acao.js"></script>
+    <title>Meu Currículo</title>
+</head>
+<body>
+    <div class="gradiente container-fluid">
+        <div class="pb-3 border-bottom border-light margem">
+            <header><!--Começo do header-->
+                <div class="logo">
+                    <i class="fa-regular fa-r"></i>
+                </div>
+                <div class="cabecalho-link"><!--Começo de cabeçalho-link-->
+                    <li>
+                        <a href="#home" class="link-offset-2 link-underline link-underline-opacity-0">Home</a><!--link âncora-->
+                    </li>
+                    <li>
+                        <a href="#sobreMim" class="link-offset-2 link-underline link-underline-opacity-0">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#habilidades" class="link-offset-2 link-underline link-underline-opacity-0">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#outros" class="link-offset-2 link-underline link-underline-opacity-0">Outros</a>
+                    </li>
+                    <button type="button" onclick="Alerta()">Meu Contato</button>
+                </div><!--Final de cabeçalho-link-->
+            </header><!--Final do header-->
+        </div>
+        <div class="container container-text" id="home">
+            <div class="text pb-3 border-bottom border-light">
+                <h3>Olá, </h3>
+                <h1>Eu sou <span>Raul A. Costa</span></h1>
+                <p>
+                    Estou em busca de uma vaga de estágio em desenvolvimento de sistemas, <br> 
+                    tenho mais facilidade em front-end, mas estou 100% disposto a aprender <br>
+                    o que for preciso.
+                    
+                    <div class="redes-sociais">
+                        <a href="mailto:raulcosta886@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://github.com/Raulcjo" rel="fa-github"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/raul-araujo-665464284/" rel="fa-linkedin"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                </p>
+            </div>
+            <div>
+                <div id="sobreMim" class="espaco text">
+                    <h4>Sobre mim</h4>
+                    <p>
+                        Estou cursando o 3° Semestre do curso de Análise e Desenvolvimento de Sistemas (ADS) na Universidade <br>
+                         Positivo - Londrina, todos dos trabalhos e atividades que tenho são da faculdade, em boa parte deles usei <br>
+                         o VScode, porém estou estudando sobre assunto. O meu nível de inglês é básico-intermediário e também <br>
+                         estou em busca de melhor.
+                    </p>
+                </div>
+                <div id="habilidades" class="pb-3 espaco mt-5">
+                    <h4>Habilidades</h4>
+                   <div>
+                    <li>Tenho conhecimento do Pacote Office (Especialmente Word e Powerpoint e estou estudando Excel)</li>
+                    <li>Boa comunicação</li>
+                    <li>Bom trabalho em equipe</li>
+                    <li>Sei desenhar</li>
+                   </div>
+                </div>
+                <div id="outros" class="pb-3 espaco text">
+                    <h4>Outros</h4>
+                    <div>
+                        <h6 class="mt-2">Cursando Manutenção de computadores e celulares - CEBRAC</h6>
+                        <p>
+                            Nesse curso estou aprendendo os principais componentes que existem em  compurtadores,
+                            notebook e celulares, como e quando é possível consertar cada um deles ou substituir 
+                            alguma parte. Também estou aprendendo a verificar a qualidade, identificar processadores 
+                            e montar ou desmontar todos esses aparelhos. Ainda não terminei esse curso.
+                        </p>
+                        <h6 class="mt-2">Commoly Confused Words - CEBRAC</h6>
+                        <p>
+                            Oficina oferecida pelo CEBRAC no dia <span>27/05/2022</span>, em que aprendi a como diferenciar palavras muito parecidas 
+                            em inglês, mas que são usadas em momentos diferentes diacordo com o contexto, memso que tenham um significado 
+                            muito próximo. 
+                        </p>
+                        <h6 class="mt-2">Diferença entre o inglês britânico e o  americano - CEBRAC</h6>
+                        <p>
+                            Oficina oferecida pelo CEBRAC no dia <span>03/06/2022</span>, em que aprendi as principais diferenças entre o inglês
+                            britânco e o americano, especialmente algumas maneiras de falar e palavras.
+                        </p>
+                        <h6 class="mt-2">Mind the gap - CEBRAC</h6>
+                        <p>
+                            Oficina oferecida pelo CEBRAC no dia <span>10/06/2022</span>, em que aprendi a prestar atenção em como algumas palavras no inglês
+                            são usadas para determidas situações, elas signicam a mesma ação ou trabalho, mas o uso de cada uma delas muda de cordo com 
+                            o contexto.
+                        </p>
+                        <h6 class="mt-2">Curso de Oratória (8h) - CEBRAC</h6>
+                        <p>
+                            Esse curso foi feito de <span>20/01/2023 até 03/02/2023</span>. As principais coisas que aprendi nele 
+                            foram como se preparar para uma apresentação, exercícios vocais, como passar credibilidade na fala, 
+                            treinar e aquecer a voz, como se conectar com o público, manter calma mesmo nervoso e entender o que
+                            é a comunicação interpessoal. 
+                        </p>
+                        <h6 class="mt-2">Curso de Informática (8h) - CEBRAC</h6>
+                        <p>
+                            Esse curso foi feito de <span>05/05/2023 até 26/05/2023</span>. Tive uma introdução as 3 principais ferramentas
+                            do pacote office, aprendi o mínimo para mexer em cada um deles e tive exercíos para digitar mais rápido.
+                        </p>
+                        <h6 class="mt-2">Método Disney - CEBRAC</h6>
+                        <p>
+                            Oficina oferecida pelo CEBRAC no dia <span>26/05/2023</span>, em que aprendi como a disney trabalha, se mantém no 
+                            mercado, quais são seus lemas e mesmo sendo uma corporação antiga. E como esse método pode ajudar outras
+                            empresas.
+                        </p>
+                        <h6 class="mt-2">Turbine sua pronúncia - CEBRAC</h6>
+                        <p>
+                            Oficina oferecida pelo CEBRAC no dia <span>02/06/2023</span>, em que aprendi como pronunciar certas palvras e que 
+                            existem algums delas que a diferença é o quão longo elas são pronunciadas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
