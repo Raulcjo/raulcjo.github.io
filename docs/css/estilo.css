@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/* ESTILO GERAl */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f8f9fa;
+    background-size: cover;
+    height: 100vh; 
+}
+
+.interface{
+    max-width: 12800px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #dfdfdf;
+    background-color: #14213D;
+    border: solid 0.1rem #14213D;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.btn-contato button:hover{
+    border: 1;
+    color: #14213D;
+    background-color: transparent;
+    cursor: pointer;
+    transform: scale(1.05);
+} 
+
+h2.titulo{
+    color: #0a0908;
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+
+h2.titulo span{
+    color: #15616d;
+}
+
+/* ESTILO HEADER */
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+header a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #14213D;
+    height: 10vh;
+}
+
+nav .nav-list{
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    padding-bottom: 0.8rem;
+}
+nav .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@media (max-width: 999px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #14213D;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li{
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
+
+.nav-list.active{
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+.mobile-menu.active .line1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2{
+    opacity: 0;
+}
+
+.mobile-menu.active .line3{
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* ESTILO TOPO DA PÁGINA */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    gap: 100px; /* Respiro entre os elementos */
+}
+
+.topo-do-site h1{
+    color: #15616d;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h2 span{
+    color: #15616d;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #14213D;
+    margin: 25px 0;
+    text-align: justify;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuante 2s ease-in-out 2.5s infinite alternate;
+    border-radius: 10%;
+}
+
+@keyframes flutuante {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* ESTILO HABILIDADES */
+
+section.habilidades{
+    padding: 40px 4%;
+}
+
+section.habilidades .flex{
+    gap: 60px;
+}
+
+.habilidades .habilidades-box{
+    color: #14213D;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: 0.1s;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #aca8a26e;
+}
+
+.habilidades .habilidades-box h3{
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.habilidades .habilidades-box i, .habilidades .habilidades-box img{
+    font-size: 50px;
+    color: #004e98;
+    text-decoration: none;
+}
+
+.habilidades .habilidades-box a{
+    text-decoration: none;
+}
+
+
+
+
+/* ESTILO SOBRE MIM */
+
+/* ESTILO PORTIFÓLIO */
+
+/* ESTILO FOOTER */
