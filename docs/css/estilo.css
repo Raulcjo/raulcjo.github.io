@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
+
 /* ESTILO GERAl */
 
 *{
@@ -48,7 +49,6 @@ body{
 } 
 
 h2.titulo{
-    color: #0a0908;
     font-size: 31px;
     text-align: center;
     margin-bottom: 20px ;
@@ -215,7 +215,7 @@ section.topo-do-site .flex{
 }
 
 section.habilidades{
-    padding: 40px 4%;
+    padding: 70px 4%;
 }
 
 section.habilidades .grid{
@@ -247,7 +247,7 @@ section.habilidades .grid{
 }
 
 .habilidades .habilidades-box i, .habilidades .habilidades-box img{
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 5px;
     color: #004e98;
 }
@@ -260,12 +260,103 @@ section.habilidades .grid{
 /* ESTILO SOBRE MIM */
 
 section.sobre{
-    padding: 40px 4%;
+    padding: 50px 4%;
 }
 
-section .txt-sobre{
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #14213D;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #15616d;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 10px 0;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+.sobre .txt-sobre p span{
+    color: #15616d;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #14213D;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+.sobre .txt-sobre .btn-social button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #d4d4d4;
+}
+
+/* ESTILO PORTIFOLIO */
+
+section.portifolio{
+    padding: 80px 4%;
+}
+
+section.portifolio .flex{
+ justify-content: space-around;
+}
+
+.portifolio .projeto-box{
+    height: 300px;
+    width: 350px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 30px 0;
+    transition: 0.2s;
+}
+
+.portifolio .projeto-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #d4d4d4;
+}
+
+.portifolio .projeto-box p{
     text-align: justify;
 }
-/* ESTILO PORTIFÓLIO */
+
+.portifolio .projeto-box a{
+    text-align: left;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+    color: #15616d;
+}
+
+.projeto-box i{
+    font-size: 75px;
+    color: #000;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ESTILO OUTROS */
+
 
 /* ESTILO FOOTER */
