@@ -259,6 +259,13 @@ section.habilidades .grid{
 
 /* ESTILO SOBRE MIM */
 
+section.sobre{
+    padding: 40px 4%;
+}
+
+section .txt-sobre{
+    text-align: justify;
+}
 /* ESTILO PORTIFÓLIO */
 
 /* ESTILO FOOTER */
