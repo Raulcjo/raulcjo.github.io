@@ -42,3 +42,7 @@ const mobileNavbar = new MobileNavbar(
 )
 
 mobileNavbar.init();
+
+function Confirmacao(){
+    alert("Sua mensagem foi enviada");
+}
