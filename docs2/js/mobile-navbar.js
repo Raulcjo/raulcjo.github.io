@@ -45,9 +45,9 @@ mobileNavbar.init(); */
 
 const hamburger = document.querySelector(".hamburger");
 
-const nav = document.querySelector(".nav");
+const nav = document.querySelector(".nav-list");
 
-hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+hamburger.addEventListener("click", () => {nav.classList.toggle("xpto")});
 
 function Confirmacao(){
     alert("Sua mensagem foi enviada");
